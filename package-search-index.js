@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"display2D.controler"},{"l":"display2D.gui"},{"l":"display2D.utilities"},{"l":"display2D.view"},{"l":"display3D.gui"},{"l":"display3D.utilities3D"},{"l":"tests"},{"l":"utilities"}]

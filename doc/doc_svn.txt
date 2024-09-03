@@ -1,0 +1,14 @@
+Pour commencer forge.unicaen -> depot -> subversion
+
+Copier la commande svn checkout https://forge.info.unicaen.fr/svn/l-systemes_plam 
+"Creation d'un dossier"
+Ou alors faire svn co https://forge.info.unicaen.fr/svn/l-systemes_plam  ; qui va crée le fichier et faire un update en même temps
+
+Aller dans le dossier:
+
+svn update = récupère tous les fichiers qui sont en ligne
+svn add "nom du fichier" = ajoute en ligne le fichier en question mais ne mais pas la forge à jour
+svn del "nom du fichier" = supprime le fichier dans la forge et en local sans la mettre à jour
+svn commit -m " 'mettre un commentaire' " = met la forge à jour des actions précédentes en ajoutant un commentaire
+svn move "nom actuel" "nouveau nom" = renomme le fichier avec un nouveau nom 
+svn revert "nom de fichier" = Annule les modifications effectuées depuis le dernier update. Uniquement en local.

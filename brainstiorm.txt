@@ -1,0 +1,24 @@
+ALPHABET:
+   -Liste(set) de char (lettres)
+   
+   -Ajout d'une lettre ou d'une liste de lettre
+   
+   -Supprimer des lettres
+   
+   -Obtenir la liste des char
+
+REGLES:
+   -Str (lettre)
+   -Str (Transformation)
+
+   -En vrai ca sera degueulasse
+
+
+MOTS:
+   -ALPHABET
+   -Axium
+   -Liste de REGLES
+
+   -Passer a l'etape suivante
+   -Passer à l'etape n
+   -getMot
